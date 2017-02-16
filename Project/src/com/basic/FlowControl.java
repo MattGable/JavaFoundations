@@ -19,6 +19,7 @@ public class FlowControl {
 	}
 	
 	private static int Factorial (int i) {
+		
 		if (i == 0) {
 			return 1;
 		}
