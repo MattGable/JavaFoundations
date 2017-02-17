@@ -8,6 +8,7 @@ public class Driver {
 		BasicOperations.GetUserInput();
 		BasicOperations.HandleInputErrors();
 		
+		FlowControl.IfElse();
 		FlowControl.Iteration();
 		FlowControl.Recursion();
 	}
