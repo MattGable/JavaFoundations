@@ -57,7 +57,7 @@ public class FlowControl {
 		System.out.println("The factorial of 10 is: " + factorial(10));
 	}
 	
-	private static int factorial (int i) {
+	private static int factorial(int i) {
 		
 		if (i == 0) {
 			return 1;
