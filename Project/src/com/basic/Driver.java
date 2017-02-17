@@ -4,13 +4,13 @@ public class Driver {
 
 	public static void main (String [] args) {
 		
-		BasicOperations.PrintHello();
-		BasicOperations.GetUserInput();
-		BasicOperations.HandleInputErrors();
+		BasicOperations.printHello();
+		BasicOperations.getUserInput();
+		BasicOperations.handleInputErrors();
 		
-		FlowControl.IfElse();
-		FlowControl.Iteration();
-		FlowControl.Recursion();
+		FlowControl.ifElse();
+		FlowControl.iteration();
+		FlowControl.recursion();
 	}
 
 }

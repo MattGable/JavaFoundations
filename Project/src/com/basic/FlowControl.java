@@ -2,7 +2,7 @@ package com.basic;
 
 public class FlowControl {
 	
-	public static void IfElse() {
+	public static void ifElse() {
 		
 		int someValue = 5;
 		//An if/else if /else in Java
@@ -17,7 +17,7 @@ public class FlowControl {
 		}
 	}
 	
-	public static void Switch() {
+	public static void switchMethod() {
 		
 		//A switch statement in Java.
 		//The entry point to the switch is where a case matches the
@@ -41,7 +41,7 @@ public class FlowControl {
 		}
 	}
 
-	public static void Iteration() {
+	public static void iteration() {
 		
 		//A loop that prints its counter every iteration.
 		for (int i = 0; i < 10; i++)
@@ -50,20 +50,20 @@ public class FlowControl {
 		}
 	}
 	
-	public static void Recursion() {
+	public static void recursion() {
 		
 		//This Recursion method uses a simple factorial calculation.
 		//Returns the factorial of a value, 10 in this case;
-		System.out.println("The factorial of 10 is: " + Factorial(10));
+		System.out.println("The factorial of 10 is: " + factorial(10));
 	}
 	
-	private static int Factorial (int i) {
+	private static int factorial (int i) {
 		
 		if (i == 0) {
 			return 1;
 		}
 		else {
-			return i * Factorial(i - 1);
+			return i * factorial(i - 1);
 		}
 	}
 }

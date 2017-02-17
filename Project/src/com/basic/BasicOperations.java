@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class BasicOperations {
 	
-	public static void PrintHello() {
+	public static void printHello() {
 		
 		//Printing a line in Java.
 		System.out.println("Printing a line.");
 	}
 	
-	public static void GetUserInput() {
+	public static void getUserInput() {
 		
 		//Instantiate a new Scanner object which gives us a lot
 		//of extra options for getting user input
@@ -24,7 +24,7 @@ public class BasicOperations {
 		System.out.println("Your input was: " + userInput);
 	}
 	
-	public static void HandleInputErrors() {
+	public static void handleInputErrors() {
 		
 		//Initializing another scanner.
 		Scanner scan = new Scanner(System.in);
