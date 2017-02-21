@@ -12,7 +12,7 @@ public class ObjectOriented {
 			System.out.println("This is printed as a ParentClass.");
 		}
 		
-		public void parentPrint () {
+		public void parentPrint() {
 			System.out.println("Printing as a ParentClass again.");
 		}
 	}
@@ -26,6 +26,47 @@ public class ObjectOriented {
 		
 		public void childPrint() {
 			System.out.println("Printing from ChildClass!");
+		}
+	}
+	
+	public class Encapsulation {
+		
+		private int myData = 10;
+		
+		public int getData() {
+			//Since int is immutable in Java, we can return
+			//myData safely.
+			return myData;
+		}
+		
+		public void setData(int inputData) {
+			myData = inputData;
+		}
+		
+		public void printData() {
+			System.out.println("myData = " + myData);
+		}
+	}
+	
+	public class AbstractedDog {
+		
+		private int XCoordinate;
+		private int YCoordinate;
+		private boolean tailIsWagging = false;
+		
+		public void bark() {
+			
+			System.out.println("Bark!");
+		}
+		
+		public void moveRight() {
+			
+			XCoordinate++;
+		}
+		
+		public void wagTail() {
+			
+			tailIsWagging = true;
 		}
 	}
 }
